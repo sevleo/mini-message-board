@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form method="POST" action="/new">
+      <div>
+        <label for="name">name</label>
+        <input id="name" type="text" name="name" />
+      </div>
+      <br />
+      <div>
+        <label for="message">message</label>
+        <input id="message" type="text" name="message" />
+      </div>
+      <br />
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
